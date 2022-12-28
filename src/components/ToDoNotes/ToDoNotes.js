@@ -1,13 +1,13 @@
 import ToDoNotesItem from "../ToDoNotesItem/ToDoNotesItem";
 import './ToDoNotes.scss'
 
-const ToDoNotes = () => {
+const ToDoNotes = (props) => {
   return (
     <div className="container__notes notes-list">
-      <ToDoNotesItem />
-      <ToDoNotesItem />
+      {props.todos.map(item => <ToDoNotesItem todo={item} key={item.id } onEditClick={props.onEdit}/>)}
+      
     </div>   
   )
 }
 
-export default function ToDoNotes()
+export default ToDoNotes

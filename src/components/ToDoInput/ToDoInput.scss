@@ -1,15 +1,15 @@
 .container__new-note {
   display: flex;
-  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .new-note__input {
   width: 600px;
-  border: 1px solid #36914e;
+  border: 1px solid #fa1e3e;
 }
   
 .new-note__submit {
   margin-left: auto;
   width: 85px;
-  border: 1px solid #36914e;
+  border: 1px solid #fa1e3e;
 }
