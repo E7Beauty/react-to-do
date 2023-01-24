@@ -8,10 +8,26 @@
 }
 
 .note__input {
-  padding: 5px;
   color: white;
-  width: 600px;
   border: 1px solid #fa1e3e;
+  padding: 0.2em;
+  box-sizing: border-box;
+}
+
+.note__input-p {
+  padding-left: 5px;
+  margin: 0;
+  display: inline-block;
+  max-width: 610px;
+  width: 100%;
+}
+
+.note__input-input {
+  color: black;
+  display: inline-block;
+  max-width: 610px;
+  width: 100%;
+  height: 38px;
 }
 
 .note__buttons {
@@ -28,7 +44,9 @@
 }
 
 .button:hover {
-  color: #36914e;
-  border: 1px solid white;
-  background-color: #212121;
+  color: #fa1e3e;
+}
+
+form {
+  margin: 0;
 }
