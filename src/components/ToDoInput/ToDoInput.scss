@@ -1,0 +1,18 @@
+.container__new-note {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.new-note__input {
+  border: 1px solid #fa1e3e;
+  padding: 0.2em;
+  max-width: 610px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.new-note__submit {
+  margin-left: auto;
+  width: 85px;
+  border: 1px solid #fa1e3e;
+}
